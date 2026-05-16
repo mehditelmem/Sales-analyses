@@ -52,36 +52,24 @@ Each business question was addressed with dedicated analysis and visualization.
 ## 📈 Key Findings
 
 ### 🏆 Best Month for Sales
-> *[Add your finding — e.g., "December was the best month with $X in revenue"]*
-
-![Best Month Chart](Output/[your-chart-filename].png)
+> December was the best month with over $4,000,000 in revenue — driven by holiday season demand.
 
 ---
 
 ### 🌆 Best City for Sales
-> *[Add your finding — e.g., "San Francisco had the highest sales volume"]*
-
-![City Sales Chart](Output/[your-chart-filename].png)
-
+> San Francisco had the highest sales volume with over $8,000,000 in total revenue.
 ---
 
 ### ⏰ Best Time for Advertisements
-> *[Add your finding — e.g., "Peak purchase hours are 11am–12pm and 7pm–8pm"]*
-
-![Hourly Sales Chart](Output/[your-chart-filename].png)
-
+> Peak purchase activity occurs around 19:00 (7 PM) — the optimal window to display ads and maximize conversion.
 ---
 
 ### 🛒 Products Most Often Sold Together
-> *[Add your finding — e.g., "iPhone + Lightning Cable was the most common bundle"]*
-
+> iPhone + Lightning Charging Cable was the most frequent product bundle, appearing together in 1,005 orders — a strong cross-sell opportunity.
 ---
 
 ### 📦 Best Selling Product
-> *[Add your finding — e.g., "AAA Batteries sold the most — likely due to low price point and frequent need"]*
-
-![Product Sales Chart](Output/[your-chart-filename].png)
-
+> AAA Batteries (4-pack) was the top-selling product by volume. This is likely due to its low price point and high consumption rate — customers need to replace batteries frequently for multiple devices.
 ---
 
 ## 🚀 How to Run
