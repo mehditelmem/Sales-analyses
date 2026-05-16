@@ -1,10 +1,107 @@
-# Sales-analyses
-This is a Python project that allows you to read data from .csv files, clean and analyze it using Pandas, and visualize graphs using Matplotlib is called "Data Analysis with Pandas."
+# 📊 Sales Analysis — Python & Pandas
 
-This project utilizes the Pandas library to read data from .csv files and perform data cleaning, manipulation, and analysis operations. Pandas provides powerful data structures, such as DataFrames, which allow for efficient working with tabular data.
+> Exploratory data analysis of a physical products sales dataset to uncover actionable business insights using Python.
 
-Next, using the Matplotlib library, the project can create various types of graphs to visualize the analyzed data. Matplotlib offers a wide range of options for creating customized graphs, including bar charts, line graphs, pie charts, scatter plots, and more.
+---
 
-This project is useful for data scientists, analysts, researchers, and anyone working with tabular data. It enables tasks such as data exploration, manipulation, cleaning, aggregation, statistical analysis, and visualization of results.
+## 🎯 Business Questions Answered
 
-By using this project, you can easily read .csv files, apply data cleaning operations (such as handling missing or outlier values), perform statistical calculations (mean, median, standard deviation, etc.), create graphs to visualize trends or relationships between variables, and export the results in various formats.
+This project tackles 5 real-world business questions:
+
+1. **What was the best month for sales?** — And how much revenue was generated?
+2. **Which US city had the highest number of sales?** — Geographic performance analysis
+3. **What is the best time to display advertisements?** — To maximize purchase likelihood
+4. **What products are most often sold together?** — Market basket / cross-sell analysis
+5. **What product sold the most?** — And why? (price vs. volume analysis)
+
+---
+
+## 📁 Dataset
+
+- **Type:** Physical products sales data
+- **Format:** CSV files (monthly sales data merged into one master dataset)
+- **Source:** Kaggle
+- **Size:** 1717 rows
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Usage |
+|------|-------|
+| Python 3 | Core language |
+| Pandas | Data cleaning & manipulation |
+| Matplotlib | Data visualization |
+| Jupyter Notebook | Analysis environment |
+
+---
+
+## 🔍 Methodology
+
+### 1. Data Preparation
+- Merged 12 monthly CSV files into a single DataFrame
+- Handled missing values and NaN rows
+- Parsed and converted data types (dates, numeric values)
+- Added derived columns: Month, City, Hour, Sales Amount
+
+### 2. Exploratory Analysis
+Each business question was addressed with dedicated analysis and visualization.
+
+---
+
+## 📈 Key Findings
+
+### 🏆 Best Month for Sales
+> *[Add your finding — e.g., "December was the best month with $X in revenue"]*
+
+![Best Month Chart](Output/[your-chart-filename].png)
+
+---
+
+### 🌆 Best City for Sales
+> *[Add your finding — e.g., "San Francisco had the highest sales volume"]*
+
+![City Sales Chart](Output/[your-chart-filename].png)
+
+---
+
+### ⏰ Best Time for Advertisements
+> *[Add your finding — e.g., "Peak purchase hours are 11am–12pm and 7pm–8pm"]*
+
+![Hourly Sales Chart](Output/[your-chart-filename].png)
+
+---
+
+### 🛒 Products Most Often Sold Together
+> *[Add your finding — e.g., "iPhone + Lightning Cable was the most common bundle"]*
+
+---
+
+### 📦 Best Selling Product
+> *[Add your finding — e.g., "AAA Batteries sold the most — likely due to low price point and frequent need"]*
+
+![Product Sales Chart](Output/[your-chart-filename].png)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/mehditelmem/Sales-analyses.git
+cd Sales-analyses
+
+# Install dependencies
+pip install pandas matplotlib jupyter
+
+# Launch notebook
+jupyter notebook analycess.ipynb
+```
+
+---
+
+## 👤 Author
+
+**Mehdi Telmem** — Data Analyst Junior  
+📧 mitelmem@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/mehdi-telmem) | [GitHub](https://github.com/mehditelmem)
